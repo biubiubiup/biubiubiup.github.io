@@ -1,0 +1,102 @@
+body,h1, div,span,p,a,img,ul,li,a{
+			margin: 0;
+			padding: 0;	
+		}
+		body{
+			background-color: #f2f2f2;
+		}
+		.logo,a,span,li{
+			/*outline: 1px dashed blue;*/
+		}
+		.logo{
+			width: 300px;
+			height: 60px;
+			margin-left: 165px;
+			margin-top: 90px;
+		}
+		.logo a{
+			text-decoration: none;
+			color: #33475f;
+			height: 60px;
+			/*background: url("logo.png") no-repeat left center;*/
+			/*红领巾*/
+			background: url("logo-hong.png") no-repeat left center;
+		}
+		.logo a,span{
+			display: block;
+		}
+		.logo span{
+			width: 235px;
+			padding-left: 53px;
+		}
+		.logo .zh{
+			font-family: "等线";
+			font-size: 26px;
+			font-weight: bold;
+			padding-top: 10px;
+		}
+		.logo .en{
+			font-family: "Calibri";
+			font-size: 11px;
+			font-weight: bold;
+			margin-top: 6px;
+			padding-left: 56px;
+		}
+
+		
+		.member{
+			/*margin-left: 295px;*/
+			margin-top: 100px;
+			height: 350px;
+		}
+		.member ul{
+			list-style-type: none;
+			text-align: center;
+		}
+		.member ul li{
+			display: inline-block;
+			width: 95px;
+			height: 180px;
+			font-family: "微软雅黑";
+			background-color: #ededed;
+			color: #44546a;
+			margin-left: 6px;
+		}
+		.member ul li a{
+			text-decoration: none;
+			color: #33475f;
+			display: block;
+		}
+		.member ul li img{
+			margin: 8px auto 7px auto;
+		}
+		.member .nickname{
+			font-size: 18px;
+			margin-bottom: 8px;
+		}
+		.member .label{
+			font-size: 9px;
+		}
+
+		.member ul li a:hover,.member ul li a:focus,.member ul li a:active{
+
+			margin-left: 4px;
+			background-color: #11cd6e;
+			color: #ffffff;
+			padding-bottom: 10px;
+		}
+		.logo a:hover,.logo a:focus,.logo a:active{
+			margin-left: 5px;
+		}
+		
+		.footer{
+			height: 104px;
+			background-color: #dbdbdb;
+			text-align: center;
+			font-family: "微软雅黑";
+			font-size: 10px;
+			
+		}
+		.footer p{
+			padding-top: 8px;
+		}
