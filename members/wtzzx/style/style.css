@@ -1,0 +1,373 @@
+/****** index.html ******/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "微软雅黑";
+    background-color: #f1f3f6;
+    color: #77787b;
+    font-size: 62.5%;
+}
+
+#main {
+    width: 1035px;
+    margin: 0 auto;
+}
+
+/** media main **/
+@media only screen and (max-width: 420px) {
+    #main {
+        width: auto;
+    }
+}
+
+
+#header {
+    display: inline-block;
+    margin-left: 5.5em;
+    width: 66em;
+    height: 12em;
+    border-bottom: 0.1em solid #e0e0e2;
+}
+
+@media only screen and (max-width: 420px) {
+    #header {
+        width: 33em;
+        height: 8em;
+        margin-left: 0.8em;
+    }
+}
+
+#header::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.title_number {
+    width: 140px;
+    height: 113px;
+    font-size: 12.3em;
+    display: inline-block;
+    line-height: 1;
+    border-right: 1px solid #e1e1e2;
+    padding-right: 10px;
+    
+    color: #e1e1e2;
+}
+
+
+@media only screen and (max-width: 420px) {
+    .title_number {
+        width: 115px;
+        height: 97px;
+        font-size: 10em;
+        padding-right: 0.05em;
+    }
+}
+
+.cross_title {
+    display: inline-block;
+    padding-top: 2.5em;
+    padding-left: 1em;
+}
+
+@media only screen and (max-width: 420px) {
+    .cross_title {
+        padding-top: 1em;
+    }
+}
+
+.cross_title img {
+    position: absolute;
+    margin-top: -5.5em;
+}
+
+@media only screen and (max-width: 420px) {
+    .cross_title img {
+        position: relative;
+        top: -5px;
+    }
+}
+
+.page-title {
+    border-left: 0.3em solid #c1c1c3;
+    padding-left: 1em;
+    margin-left: -1.5em;
+}
+
+.title-intro {
+    letter-spacing: 0.6em;
+    color: #77787b;
+}
+
+.title-intro + p {
+    word-spacing: 0.5em;
+    font-size: 11px;
+    color: #9d9ea0;
+}
+
+#content {
+    width: 80em;
+    margin-left: 5.5em;
+}
+
+@media only screen and (max-width: 420px) {
+    #content {
+        width: 33em;
+        margin-left: 1em;
+    }
+}
+
+.intro-name {
+    width: 66em;
+    margin: 0 0 1em 0;
+    height: 7.5em;
+    border-bottom: 1px solid #e0e0e2; 
+    background: url(../images/status_bg.gif) left center no-repeat;
+}
+
+@media only screen and (max-width: 420px) {
+    .intro-name {
+        width: auto;
+        background: none;
+    }
+}
+
+
+.show-name {
+    line-height: 70px;
+    margin-left: 180px;
+    font-size: 54px;
+}
+
+
+.show-name + p {
+    margin-left: 180px;
+    font-size: 12px;
+    line-height: 1px;
+}
+
+@media only screen and (max-width: 420px) {
+    .show-name {
+        line-height: 70px;
+        font-size: 35px;
+        margin-left: 0.35em;
+    }
+    
+    .show-name + p {
+        margin-left: 1em;
+    }
+}
+
+.portraits {
+    width: 150px;
+    float: left;
+    margin-top: 15px;
+    border-left: 1px solid #e0e0e2;
+}
+
+@media only screen and (max-width: 420px) {
+    .portraits {
+        float: left;
+        border: none;
+        width: 115px;
+    }
+    
+    .portraits::after {
+        display: table;
+        content: "";
+        clear: both;
+    }
+}
+
+.h5-s {
+    padding-left: 10px;
+    border-left: 3px solid #c1c1c3;
+}
+
+.img-box {
+    height: 104px;
+    margin-top: 20px;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+
+.img-box:hover {
+    border-left: 3px solid #c1c1c3;
+    padding-left: 12px;
+}
+
+.img-box img {
+    width: 104px;
+    height: 104px;
+    box-sizing: border-box;
+    border: 3px solid #c1c1c3;
+}
+
+.center {
+    margin-left: 160px;
+    margin-top: 25px;
+    width: 380px;
+    height: 100%;
+    border-left: 1px solid #e0e0e2;
+}
+
+@media only screen and (max-width: 420px) {
+    .center {
+        width: 100%;
+        margin-left: 1px;
+        border: none;
+    }
+    
+    .content::after {
+        display: table;
+        content: "";
+        clear: both;
+    }
+}
+
+.center article {
+    margin-top: 10px;
+}
+
+.info {
+    margin-top: 10px;
+    margin-left: 13px;
+    
+    font-size: 11px;
+    line-height: 18px;
+    text-indent: 1.5em;
+    text-align: justify;
+}
+
+.other-info {
+    margin-top: 10px;
+    margin-left: 13px;
+    
+    font-size: 11px;
+    line-height: 18px;
+    text-align: justify;
+}
+
+.other-info a {
+    text-decoration: none;
+    color: rgb(119, 120, 123);
+}
+
+#sidebar {
+    float: right;
+    width: 170px;
+    height: 560px;
+    border-left: 1px solid #e0e0e2;
+    background: url(../images/sidebar_bg.png) top center no-repeat;
+}
+
+@media only screen and (max-width: 420px) {
+    #sidebar {
+        display: none;
+    }
+}
+
+.side-nav {
+    margin-top: 165px;
+    list-style-type: none;
+}
+
+.side-nav li {
+    display: inline-block;
+    width: 175px;
+    height: 30px;
+    padding-left: 15px;
+    margin-bottom: 35px;
+}
+
+.side-nav li:hover {
+    border-left: 3px solid #F47920;
+    padding-left: 12px;
+    color: #F47920;
+}
+
+.side-nav li a {
+    color: #77787b;
+    text-decoration: none;
+}
+
+.page-num {
+    font-size: 35px;
+    float: left;
+    margin-right: 10px;
+    margin-top: -9px;
+}
+
+.page-num:hover {
+    color: #F47920;
+}
+
+.page-num + p {
+    letter-spacing: 3px;
+    line-height: 12px;
+}
+
+.ft-11 {
+    font-size: 11px;
+    color: #9d9ea0;
+}
+
+#footer {
+    height: 40px;
+    margin: 5px 30px 0 45px;
+    border-top: 1px solid #e0e0e2;
+}
+
+.copyr {
+    line-height: 40px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 420px) {
+    .rec-pic {
+        display: none;
+    }
+    
+    .img-box {
+        margin-top: 0;
+        padding-left: 0;
+        margin-bottom: 1em;
+    }
+    
+    .h5-s {
+        border: none;
+    }
+    
+    .info {
+        margin-right: 10px;
+        margin-left: 0;
+    }
+}
+
+#m-nav {
+    display: none;
+}
+
+@media only screen and (max-width: 420px) {
+    #m-nav {
+        /*display: inline-block;*/
+        width: 30px;
+        height: 30px;
+        border-radius: 15px;
+        border: 3px solid rgba(255, 255, 255, 0.2);
+        background: #e1e1e2;
+        position: absolute;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    
+    #m-nav {
+        text-align: center;
+        line-height: 30px;
+    }
+}
