@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:"微软雅黑";
+    list-style: none;
+    background-color: #F1F3F6;
+}
+
+
+
+
+#header {
+    width: 990px;
+    height: 100px;
+    position: relative;
+}
+#header span {
+    
+    position: absolute;
+    left: 160px;
+    font-size: 123px;
+    color: #E1E1E2;
+}
+#header .header-pic {
+    padding:10px;
+    border-left:1px solid #E0E0E2;
+    position: absolute;
+    left: 300px;
+    top: 35px;
+}
+#header .header-con {
+    position: absolute;
+    left: 300px;
+    top: 90px;
+    border-left:3px solid #C1C1C3;
+}
+#header .header-con h3 {
+    font-size: 14px;
+    color: #77787B;
+    margin-left: 5px;
+}
+#header .header-con p {
+    font-size: 11px;
+    margin-left: 5px;
+}
+
+#content {
+    width:835px;
+    margin-top: 80px;
+    margin-left: 160px;
+    position: relative;
+}
+
+#content .status {
+    height: 85px;
+    width: 835px;
+    padding-top: 15px;
+    border-top: 1px solid #E0E0E2;
+    border-bottom: 1px solid #E0E0E2;
+
+}
+#content .status img {
+    float: left;
+    padding-right: 20px;
+}
+
+#content .status h1 {
+    font-size: 54px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #77787B;
+    margin-top: -15px;
+}
+#content .profile {
+    float: left;
+}
+
+#content .profile h3 {
+    border-left: 3px solid #C1C1C3;
+    padding: 10px 20px;
+    font-size: 18px;
+    color:  #77787B;
+
+}
+
+#content .profile .pro-pic {
+    border-left: 1px solid #E0E0E2;
+}
+#content .profile .pro-pic img {
+    width: 108px;
+    height: 108px;
+    margin-left: 30px;
+    border :3px solid #C1C1C3;
+}
+#content .intro {
+    position: absolute;
+    top: 104px;
+    left: 170px;
+}
+#content .intro h3 {
+    border-left: 3px solid #C1C1C3;
+    margin-left: 5px;
+    padding-left: 10px;
+    color: #77787B;
+}
+
+#content  .intro  p {
+    border-left: 1px solid #E0E0E2;
+    margin-left: 5px;
+    padding: 10px;
+}
+
+#sidebar {
+    height: 800px;
+    margin-left: 1000px;
+    margin-top: -286px;
+    border-left:1px solid #E0E0E2;
+}
+#sidebar img {
+    background: url(../img/index.png) no-repeat;
+    background-position: 28px 15px;
+
+}
+#sidebar a {
+    text-decoration: none;
+}
+#sidebar li {
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+#sidebar span {
+    color: #77787B;
+    font-size: 35px;
+}
+
+
+#sidebar h3 {
+    margin-left: 50px;
+    margin-top: -45px;
+    color: #77787B;
+
+}
+#sidebar p {
+    margin-left: 50px;
+    color: #77787B;
+}
+
+#footer {
+    width: 1040px;
+    text-align: center;
+    border-top: 1px solid #E0E0E2;
+    margin-left: 150px;
+}
+
+  
+
