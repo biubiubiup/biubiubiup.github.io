@@ -12,7 +12,7 @@ body,h1, div,span,p,a,img,ul,li,a{
 			width: 300px;
 			height: 60px;
 			margin-left: 165px;
-			margin-top: 90px;
+			margin-top: 54px;
 		}
 		.logo a{
 			text-decoration: none;
@@ -53,22 +53,31 @@ body,h1, div,span,p,a,img,ul,li,a{
 			list-style-type: none;
 			text-align: center;
 		}
-		.member ul li{
+		
+		.member ul li {
 			display: inline-block;
-			width: 95px;
-			height: 180px;
+			width: 135px;
+			height: 240px;
 			font-family: "微软雅黑";
-			background-color: #ededed;
+			/* background-color: #ededed; */
+			background-color: #EFECEC;
 			color: #44546a;
-			margin-left: 6px;
+			margin-left: 20px;
+			margin-bottom: 15px;
+			/* padding: 10px; */
+			border-radius: 5px;
+			box-shadow: 0 2px 5px #A0A0A0;
+			/* box-sizing: border-box; */
 		}
+
 		.member ul li a{
 			text-decoration: none;
 			color: #33475f;
-			display: block;
+			display: inline-block;
+			height: 240px;
 		}
 		.member ul li img{
-			margin: 8px auto 7px auto;
+			margin: 29px auto 7px auto;
 		}
 		.member .nickname{
 			font-size: 18px;
@@ -80,17 +89,22 @@ body,h1, div,span,p,a,img,ul,li,a{
 
 		.member ul li a:hover,.member ul li a:focus,.member ul li a:active{
 
-			margin-left: 4px;
+			/* margin-left: 4px; */
 			background-color: #11cd6e;
 			color: #ffffff;
-			padding-bottom: 10px;
+			border-radius: 5px;
+			
+			/* padding-bottom: 10px; */
+			display: block;
+
 		}
+
 		.logo a:hover,.logo a:focus,.logo a:active{
 			margin-left: 5px;
 		}
 		
 		.footer{
-			height: 104px;
+			/* height: 104px; */
 			background-color: #dbdbdb;
 			text-align: center;
 			font-family: "微软雅黑";
@@ -98,5 +112,5 @@ body,h1, div,span,p,a,img,ul,li,a{
 			
 		}
 		.footer p{
-			padding-top: 8px;
+			padding: 20px;
 		}
