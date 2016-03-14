@@ -114,3 +114,8 @@ body,h1, div,span,p,a,img,ul,li,a{
 		.footer p{
 			padding: 20px;
 		}
+		
+		/*隐藏Follow Us重复的两行*/
+		.spc{
+			visibility: hidden;
+		}
